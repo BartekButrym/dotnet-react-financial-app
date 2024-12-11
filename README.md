@@ -2,9 +2,14 @@
 
 A brief description of what this project does and who it's for
 
+# Content of Project
+
+- [Project preparation](#project-preparation)
+- [Run the project](#how-to-run)
+
 ## Project preparation
 
-The project uses .Net Core Web API and SQL Server + SSMS tools.
+The project uses .Net Core Web API, Entity Framework and SQL Server + SSMS tools.
 
 The backend part was initiated with the command:
 
@@ -30,3 +35,5 @@ The migration was created and then applied to the database using the commands:
   dotnet ef migrations add init
   dotnet ef database update
 ```
+
+## How to run
