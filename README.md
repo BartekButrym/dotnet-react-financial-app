@@ -25,6 +25,10 @@ The following packages have been installed for the .Net project:
 
 `Microsoft.EntityFrameworkCore.Design`
 
+`Newtonsoft.Json`
+
+`Microsoft.AspNetCore.Mvc.NewtonsoftJson`
+
 In the `appsettings.json` file, the following template was used for the `DefaulConnection` for the database:
 
 `Data Source={PCNAME};Initial Catalog={DATABASENAME};Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False`
