@@ -1,0 +1,23 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #222;
+  background-color: rgb(245, 245, 220);
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: blue;
+  font-size: 16;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+input,
+textarea {
+  font-size: 16;
+}
