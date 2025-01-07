@@ -1,0 +1,10 @@
+:root {
+  --max-page-width: 1280px;
+
+  --font-primary: 'Roboto', sans-serif;
+  --font-secondary: 'IBM Plex Sans Condensed', sans-serif;
+
+  --black: #191919;
+  --light: #f4f5f7;
+  --green: #299d91;
+}

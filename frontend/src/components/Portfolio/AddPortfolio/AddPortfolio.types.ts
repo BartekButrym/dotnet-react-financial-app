@@ -1,4 +1,6 @@
+import { FormEvent } from 'react';
+
 export type Props = {
-  onPortfolioCreate: () => void;
+  onPortfolioCreate: (e: FormEvent<HTMLFormElement>) => void;
   symbol: string;
 };
