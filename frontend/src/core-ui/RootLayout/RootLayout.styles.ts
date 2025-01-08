@@ -5,4 +5,5 @@ export const Container = styled.main`
   width: 100%;
   max-width: var(--max-page-width);
   margin: 0 auto;
+  padding: 10px 20px;
 `;

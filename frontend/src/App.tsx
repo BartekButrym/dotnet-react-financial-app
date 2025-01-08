@@ -1,16 +1,8 @@
-import { Outlet } from 'react-router';
-import { RootLayout } from '@core-ui/RootLayout/RootLayout';
-import { Navbar } from '@components/Navbar/Navbar';
+import { RouterProvider } from 'react-router';
+import { router } from '@routes/Routes';
 
 function App() {
-  return (
-    <RootLayout>
-      <Navbar />
-      <main>
-        <Outlet />
-      </main>
-    </RootLayout>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

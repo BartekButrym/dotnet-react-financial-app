@@ -1,6 +1,8 @@
-import { ReactNode } from 'react';
+import { Outlet } from 'react-router';
 import { Container } from './RootLayout.styles';
 
-export const RootLayout = ({ children }: { children: ReactNode }) => {
-  return <Container>{children}</Container>;
-};
+export const RootLayout = () => (
+  <Container>
+    <Outlet />
+  </Container>
+);

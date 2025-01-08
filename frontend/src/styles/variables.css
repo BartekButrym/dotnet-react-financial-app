@@ -5,6 +5,10 @@
   --font-secondary: 'IBM Plex Sans Condensed', sans-serif;
 
   --black: #191919;
-  --light: #f4f5f7;
+  --white: #fff;
+  --light: #f3f3f3;
+  --lighter: #fafafa;
   --green: #299d91;
+  --red: #e73d1c;
+  --grey: #666;
 }
